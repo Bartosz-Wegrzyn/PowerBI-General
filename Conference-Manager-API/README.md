@@ -23,13 +23,13 @@ Execute `python CM_API.py` with optional arguments:
 #### Arguments:
 
 `-y {int}` Event Start Date Year. From 2018 to current year. Pass for all. \
-`-u {str}` Business Unit 'DK' or 'PL'. Pass for both. \
+`-u {str}` Business Unit 'Account1' or 'Account2'. Pass for both. \
 `-f {str}` Save format:  'csv' or 'excel'. Pass for .csv
 
 #### Examples:
 
 `python CM_API.py`   -  Refresh all dataset (Priopably won't work due to HTTP 400 or 401 or 408)  \
-`python CM_API.py -u 'DK'` -  Refresh danish data (Priopably won't work due to HTTP 400 or 401 or 408) \
+`python CM_API.py -u 'Account1'` -  Refresh Account1 data (Priopably won't work due to HTTP 400 or 401 or 408) \
 `python CM_API.py -y 2024` - Get 2024 data
             
             
