@@ -1,0 +1,16 @@
+{
+  "name": "CRM Navigator",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "Shortcut to CRM entities",
+  "icons": {
+    "128": "icons/d128x128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
