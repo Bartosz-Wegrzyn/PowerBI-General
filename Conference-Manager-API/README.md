@@ -29,7 +29,7 @@ Execute `python CM_API.py` with optional arguments:
 #### Examples:
 
 `python CM_API.py`   -  Refresh all dataset (Priopably won't work due to HTTP 400 or 401 or 408)  \
-`python CM_API.py -u 'DK'` -  Refresh danish data (Priopably won't work due to HTTP 400 or 401 or 408) \
+`python CM_API.py -u 'Account1'` -  Refresh Account1 data (Priopably won't work due to HTTP 400 or 401 or 408) \
 `python CM_API.py -y 2024` - Get 2024 data
             
             
