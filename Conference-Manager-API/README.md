@@ -23,7 +23,7 @@ Execute `python CM_API.py` with optional arguments:
 #### Arguments:
 
 `-y {int}` Event Start Date Year. From 2018 to current year. Pass for all. \
-`-u {str}` Business Unit 'DK' or 'PL'. Pass for both. \
+`-u {str}` Business Unit 'Account1' or 'Account2'. Pass for both. \
 `-f {str}` Save format:  'csv' or 'excel'. Pass for .csv
 
 #### Examples:
